@@ -84,9 +84,31 @@
 }
 
 /* 문제 1: 3열 그리드 */
+.problem1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+}
 
 /* 문제 2: fr 단위로 열 너비 조정 */
+.problem2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr ;
+}
+
 
 /* 문제 3: gap으로 간격 만들기 */
+.problem3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
 
 /* 문제 4: 간단한 레이아웃 만들기 */
+.problem4 {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gap: 10px;
+}
+
+.problem4 .item:nth-child(1) {grid-column: 1 / -1;}
+.problem4 .item:nth-child(5) {grid-column: 1 / -1;}
