@@ -104,3 +104,75 @@
 }
 
 /* Problem 스타일은 학습자가 직접 수정할 수 있도록 비워둡니다 */
+.problem1{
+  display: flex;
+}
+
+.problem2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.problem3 {
+  display: flex;
+  justify-content: center;
+}
+
+.problem4{
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+
+.problem5{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.problem6{
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+}
+
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  /* 네비게이션 바를 Flex 컨테이너로 만들고, 내부 요소들을 정렬하세요 */
+  height: 60px;
+  background-color: #3b82f6;  /* 파란색 배경 */
+  padding: 0 1rem;  /* 좌우 패딩 */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  /* 메뉴를 Flex 컨테이너로 만들고, 항목들을 정렬하세요 */
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: flex;
+  align-items: flex-end;
+  margin: 0 0.5rem;  /* 좌우 마진으로 간격 조정 */
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
